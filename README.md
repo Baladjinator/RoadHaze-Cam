@@ -8,7 +8,9 @@
   "name": string -> the name of the camera,
   "s_url_init": string -> url to endpoint to initialize the device,
   "s_url": string -> url to endpoint for sending data,
-  "lat": float -> latitude of camera,
-  "lon": float -> longtitude of camera
+  "lat": Optional[float] -> latitude of camera,
+  "lon": Optional[float] -> longtitude of camera
 }
 ```
+
+Note: Those properties, marked with optional, are not needed if a gps module is connected to the device.
