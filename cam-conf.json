@@ -1,0 +1,8 @@
+{
+    "name": "<Name of camera - it's location> - str",
+    "s_url_init": "<URL to establish initial communication with server> - str",
+    "s_url": "<URL to send data to server> - str",
+    "lat": "<Latitude of camera> - float",
+    "lon": "<Longitude of camera> - float",
+    "id": "<ID of camera> - int, initially null"
+}
